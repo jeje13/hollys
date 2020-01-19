@@ -1,0 +1,29 @@
+
+$(document).ready(function(){
+   $('.mobile_nav').hide();
+   $('.slider').bxSlider();
+   $('.tgl_btn').click(function(){
+      $('.mobile_nav').slideToggle();
+   });
+   $('.menu').click(function(){
+      $('.menu_sub').slideToggle();
+   });
+   $('.hollys_mall').click(function(){
+      $('.hollys_mall_sub').slideToggle();
+   });
+   $('.membership').click(function(){
+      $('.membership_sub').slideToggle();
+   });
+   $('.hollys_news').click(function(){
+      $('.hollys_news_sub').slideToggle();
+   });
+   $('.store').click(function(){
+      $('.store_sub').slideToggle();
+   });
+   $('.hollys_is').click(function(){
+      $('.hollys_is_sub').slideToggle();
+   });
+   $('.main_menu').click(function(){
+      $('.sub_menu').slideToggle();
+   });
+});

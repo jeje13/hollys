@@ -1,0 +1,6 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;border: none;box-sizing: border-box;font-family: 'Nanum Gothic', sans-serif;}
+h1,h2,h3,h4,h5,h6,strong,u,i{font-size:16px; font-weight:400;text-decoration:none;}
+a{color: black;text-decoration: none;}
+ul,ol{list-style: none;}
+
